@@ -1,8 +1,10 @@
 :toc: macro
 :toc-title:
-:toclevels: 99
+:toclevels: 9
 
 # DNS best practices for host naming
+
+toc::[]
 
 ## Scope
 
