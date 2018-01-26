@@ -232,7 +232,7 @@ they don't leave side effects by writing into local databases) by
 simply referring to a specific out-of-service hostname.
 
 Alternatively, we can have these machines fail the load balancer
-health-check: e.g. return HTTP 500 whenever the URL path
+health-check: e.g. return HTTP 404 (Not Found) whenever the URL path
 `/are-you-ok` is requested by the load-balancer.
 
 
